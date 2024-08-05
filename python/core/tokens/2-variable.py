@@ -1,5 +1,5 @@
 """
-A variable in Python is a name that is used to refer to a memory location where a value is stored. Variables are used to store data that can be manipulated and referenced throughout a program.
+A variable in Python is a name that is used to refer to a memory location where a value is stored. Variables are used to store data that can be "manipulated" and "referenced" throughout a program.
 
 syntax:
 variable_name = value
