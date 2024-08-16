@@ -9,3 +9,6 @@
 # print("Gondaliya")
 
 # print("Python", "Java", "php", sep="|")
+
+# items = 1,2,3,4
+# print(items, sep="_")
