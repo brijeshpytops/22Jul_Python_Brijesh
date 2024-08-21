@@ -48,6 +48,12 @@ write a program and get the string from the user
 - covert given string to capitalize the first letter of each word and make the rest of the word lower
 - remove the spaces from the given string
 
+Hint: 
+print(ord('A'))
+print(ord('a'))
+print(chr(97))
+print(chr(65))
+
 
 
 
