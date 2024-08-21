@@ -25,3 +25,80 @@ task-3:
     *       *
       *       *
         * * * * *
+
+task-4:
+write a program and get the string from the user
+    - count the words of the given string.
+    - count the char of the given string.
+    - count the digits of the given string.
+    - count the special characters of the given string.
+    - count the upper case letters of the given string.
+    - count the lower case letters of the given string.
+    - count the spaces of the given string.
+    - count the tabs of the given string.
+    - count the new line of the given string.
+
+task-5:
+write a program and get the string from the user
+- covert given string to lower case
+- covert given string to upper case
+- covert given string to swap case
+- covert given string to title case
+- covert given string to capitalize the first letter of each word
+- covert given string to capitalize the first letter of each word and make the rest of the word lower
+- remove the spaces from the given string
+
+
+
+
+
+task-:
+
+
+password = "Tops@123"
+upr = False
+m_upr = True
+lwr = False
+m_lwr = True
+sc = False
+m_sc = True
+di = False
+m_di = True
+
+if len(password >= 8):
+    for ch in password:
+        # print(ch)
+        if ch.isupper():
+            upr = True
+        else:
+            if m_upr:
+                print("Atleast only one char must be upper case.")
+                m_upr = False
+        if ch.islower():
+            lwr = True
+        else:
+            if m_lwr:
+                print("Atleast only one char must be lower case.")
+                m_lwr = False
+        if not ch.isalnum():
+            sc = True
+        else:
+            if m_sc:
+                print("Atleast one special char must be there.")
+                m_sc = False
+        if ch.isdigit():
+            di = True
+        else:
+            if m_di:
+                print("Atleast only one digit must be there.")
+                m_di = False
+
+if upr and lwr and sc and di:
+    print("Strong Password")
+else:
+    print("Weak Password")
+
+
+
+
+

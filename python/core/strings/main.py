@@ -54,6 +54,7 @@ pages = 2354
 # print("Book name is {} and price is {} and pages are {}".format(book, price, pages))
 # print("Book name is {1} and price is {0} and pages are {2}".format(book, price, pages))
 # print("Book name is %s and price is %.2f and pages are %d" % (book, price, pages))
+# print("Book name is " + book +  " and price is " + str(price) +  " and pages are " + str(pages))
 
 # print("my name is "Brijesh gondaliya"")
 # print("my name is 'Brijesh gondaliya'")
@@ -91,51 +92,88 @@ code = "python"
 # print(code.endswith("ON"))
 # print(code.endswith("on"))
 
-password = "Tops@123"
-upr = False
-m_upr = True
-lwr = False
-m_lwr = True
-sc = False
-m_sc = True
-di = False
-m_di = True
+# password = "Tops@123"
+# upr = False
+# m_upr = True
+# lwr = False
+# m_lwr = True
+# sc = False
+# m_sc = True
+# di = False
+# m_di = True
 
-if len(password >= 8):
-    for ch in password:
-        # print(ch)
-        if ch.isupper():
-            upr = True
-        else:
-            if m_upr:
-                print("Atleast only one char must be upper case.")
-                m_upr = False
-        if ch.islower():
-            lwr = True
-        else:
-            if m_lwr:
-                print("Atleast only one char must be lower case.")
-                m_lwr = False
-        if not ch.isalnum():
-            sc = True
-        else:
-            if m_sc:
-                print("Atleast one special char must be there.")
-                m_sc = False
-        if ch.isdigit():
-            di = True
-        else:
-            if m_di:
-                print("Atleast only one digit must be there.")
-                m_di = False
+# if len(password >= 8):
+#     for ch in password:
+#         # print(ch)
+#         if ch.isupper():
+#             upr = True
+#         else:
+#             if m_upr:
+#                 print("Atleast only one char must be upper case.")
+#                 m_upr = False
+#         if ch.islower():
+#             lwr = True
+#         else:
+#             if m_lwr:
+#                 print("Atleast only one char must be lower case.")
+#                 m_lwr = False
+#         if not ch.isalnum():
+#             sc = True
+#         else:
+#             if m_sc:
+#                 print("Atleast one special char must be there.")
+#                 m_sc = False
+#         if ch.isdigit():
+#             di = True
+#         else:
+#             if m_di:
+#                 print("Atleast only one digit must be there.")
+#                 m_di = False
 
-if upr and lwr and sc and di:
-    print("Strong Password")
-else:
-    print("Weak Password")
+# if upr and lwr and sc and di:
+#     print("Strong Password")
+# else:
+#     print("Weak Password")
+
+# fname= "brijesh"
+# lname= "gondaliya"
+# print(fname + " " + lname)  # Output: brijeshgondaliya
+
+# name = "Tops"*3
+# print(name)
+
+# star = "*"*1
+# print(star)
+# star = "*"*2
+# print(star)
+# star = "*"*3
+# print(star)
+# star = "*"*4
+# print(star)
+# star = "*"*5
+# print(star)
+
+# num = 5
+# for row in range(1, num+1):
+#     print(" "*(num-row), row*" *")
+
+# name = "tOps technOlogiEs pvt. ltd.".lower()
+
+# vowels = "aeiou"
+# conso_count = 0
+# special_symbols = 0
+# for ch in name:
+#     if ch not in vowels:
+#         if ch.isalpha():
+#             conso_count += 1
+        
+#         if not ch.isalnum():
+#             special_symbols += 1
+# print(conso_count)
+# print(special_symbols)
+# print(len(name) - conso_count - special_symbols)
 
 
-
-
-
-
+# name = "brijesh gondalIya".lower()
+# # print(name.find('i'))
+# print(name.count('I'.lower()))
