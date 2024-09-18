@@ -1,0 +1,13 @@
+class and objects
+Encapsulation
+    - constructor
+    - access specifiers
+    - getter and setter 
+Inheritance
+    - single 
+    - multiple
+    - multi-level
+    - hierarchical
+    - hybrid
+Abstraction
+polymorphism
